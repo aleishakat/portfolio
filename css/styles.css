@@ -1,0 +1,377 @@
+
+        @import url('//fonts.googleapis.com/css?family=Oswald:200,300');
+        /* define a style for Title, Headings and Normal texts */
+        
+        .title,
+        .heading1,
+        .heading2,
+        .heading3,
+        .normal {
+            color: black;
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            font-weight: normal;
+        }
+        /* force element height to be smaller than sections can be in silex */
+        
+        .editable-style.small-height {
+            min-height: 10px;
+            height: 10px;
+            max-height: 10px;
+        }
+        /* title style */
+        
+        .title {
+            font-size: 60px;
+            color: rgb(73, 187, 204);
+        }
+        
+        .heading1 {
+            font-size: 24px;
+        }
+        
+        .editable-style.right {
+            left: initial;
+            right: 0px;
+        }
+        
+        .grey-text .normal {
+            color: grey;
+        }
+        
+        .small-text .normal {
+            color: grey;
+            font-size: 10px;
+        }
+        
+        .product-details .heading1 {
+            color: rgb(73, 187, 204);
+        }
+        
+        .product-details .heading3 {
+            color: white;
+            background-color: rgb(73, 187, 204);
+            float: right;
+            padding: 2px 25px;
+        }
+        
+        .in-front {
+            z-index: 1000;
+        }
+        
+        .link-menu .normal {
+            padding-top: 5px;
+            color: #000000;
+        }
+        /* animated colors widget
+            https://github.com/silexlabs/Silex/issues/138
+        */
+        
+        .link-menu .page-link-active {
+            background-color: rgb(73, 187, 204);
+            transition: background-color 0.5s ease-in;
+        }
+        
+        .link-menu .page-link-active .normal {
+            color: #FFFFFF;
+            transition: color 0.5s ease-in;
+        }
+    
+        .silex-id-1436036524732-32 {
+            cursor: auto;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .silex-id-1483130857943-13 {
+            top: 100px;
+            left: NaNpx;
+            background-color: rgba(180, 229, 232, 1);
+        }
+        
+        .silex-id-1483130857943-12 {
+            min-height: 20px;
+            background-color: transparent;
+        }
+        
+        .silex-id-1483130355289-7 {
+            top: 10px;
+            left: 0px;
+            min-width: 980px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130355289-7 {
+                top: 70px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1483130355289-6 {
+            min-height: 253px;
+            background-color: transparent;
+            top: 15px;
+            left: 191px;
+            width: 980px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130355289-6 {
+                min-height: 218px;
+            }
+        }
+        
+        .silex-id-1436036524531-30 {
+            width: 938px;
+            top: 17px;
+            left: 20px;
+            background-color: transparent;
+            min-height: 226px;
+        }
+        
+        .silex-id-1500320760332-1 {
+            width: 174px;
+            min-height: 206px;
+            top: 6px;
+            left: -19px;
+        }
+        
+        .silex-id-1500339310102-8 {
+            width: 240px;
+            min-height: 24px;
+            top: 192px;
+            left: 160px;
+        }
+        
+        .silex-id-1500325670765-14 {
+            width: 673px;
+            min-height: 80px;
+            top: 46px;
+            left: 161px;
+        }
+        
+        .silex-id-1500320340240-0 {
+            width: 668px;
+            min-height: 47px;
+            top: 16px;
+            left: 182px;
+        }
+        
+        .silex-id-1483131519736-31 {
+            top: 708px;
+            left: 0px;
+            min-width: 980px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131519736-31 {
+                top: 401px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1483131519736-30 {
+            min-height: 206px;
+            background-color: transparent;
+            top: 15px;
+            left: 191px;
+            width: 980px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131519736-30 {
+                min-height: 415px;
+            }
+        }
+        
+        .silex-id-1500321388547-2 {
+            width: 910px;
+            min-height: 168px;
+            top: 4px;
+            left: 38px;
+        }
+        
+        .silex-id-1483130397853-8 {
+            top: 1220px;
+            left: 0px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130397853-8 {
+                top: 730px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1483130397854-9 {
+            min-height: 525px;
+            background-color: transparent;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130397854-9 {
+                min-height: 767px;
+            }
+        }
+        
+        .silex-id-1500339108805-6 {
+            width: 381px;
+            min-height: 228px;
+            top: 7px;
+            left: 31px;
+        }
+        
+        .silex-id-1500337583401-1 {
+            width: 506px;
+            min-height: 431px;
+            top: 588px;
+            left: 628px;
+        }
+        
+        .silex-id-1483131239726-14 {
+            top: 572px;
+            left: NaNpx;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131239726-14 {
+                top: 1470px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1483131239727-15 {
+            min-height: 525px;
+            background-color: transparent;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131239727-15 {
+                min-height: 735px;
+            }
+        }
+        
+        .silex-id-1500338967394-4 {
+            width: 456px;
+            min-height: 256px;
+            top: 13px;
+            left: 6px;
+        }
+        
+        .silex-id-1483131242514-19 {
+            top: 572px;
+            left: NaNpx;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131242514-19 {
+                top: 2205px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1483131242514-20 {
+            min-height: 525px;
+            background-color: transparent;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131242514-20 {
+                min-height: 718px;
+            }
+        }
+        
+        .silex-id-1500337677638-2 {
+            width: 487px;
+            min-height: 228px;
+            top: 12px;
+            left: 475px;
+        }
+        
+        .silex-id-1483131242515-21 {
+            width: 225px;
+            top: 17px;
+            left: 115px;
+            min-height: 225px;
+        }
+        
+        .silex-id-1483131410736-25 {
+            top: 259px;
+            left: NaNpx;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131410736-25 {
+                top: 401px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1483131410737-26 {
+            min-height: 525px;
+            background-color: transparent;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131410737-26 {
+                top: 0px;
+                left: 12px;
+                width: 445px;
+                min-height: 791px;
+            }
+        }
+        
+        .silex-id-1436036521716-2 {
+            width: 907px;
+            top: 76px;
+            left: 21px;
+            min-height: 136px;
+        }
+        
+        .silex-id-1500323160402-9 {
+            min-height: 100px;
+        }
+        
+        .silex-id-1500323160402-8 {
+            min-height: 100px;
+        }
+        
+        .silex-id-1500323167801-10 {
+            width: 493px;
+            min-height: 970px;
+            top: 8px;
+            left: 14px;
+        }
+        
+        .silex-id-1500323759614-11 {
+            width: 494px;
+            min-height: 860px;
+            top: 6px;
+            left: 534px;
+        }
+        
+        .silex-id-1500325299903-13 {
+            width: 943px;
+            min-height: 204px;
+            top: 83px;
+            left: 216px;
+        }
+        
+        .silex-id-1500337385001-0 {
+            width: 542px;
+            min-height: 475px;
+            top: 601px;
+            left: 590px;
+        }
+    
