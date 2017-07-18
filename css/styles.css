@@ -244,6 +244,14 @@
             left: 58px;
         }
         
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1500339108805-6 {
+                left: 131px;
+                top: 5857px;
+            }
+        }
+        
         .silex-id-1500337583401-1 {
             width: 548px;
             min-height: 419px;
